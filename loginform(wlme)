@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (user.equals("admin") && pass.equals("1234")) {
                 // Move to WelcomeActivity after successful login
-                Intent i = new Intent(MainActivity.this, WelcomeActivity.class);
+                Intent i = new Intent(MainActivity.this, welcomeactivity.class);
                 i.putExtra("username", user);
                 startActivity(i);
             } else {
@@ -145,7 +145,7 @@ androidmanifist.xml
         android:supportsRtl="true"
         android:theme="@style/Theme.Loginform">
 
-        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".welcomeactivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
