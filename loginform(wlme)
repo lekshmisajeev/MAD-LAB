@@ -93,14 +93,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class WelcomeActivity extends AppCompatActivity {
+public class welcomeactivity extends AppCompatActivity {
 
     TextView textWelcome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_welcome);
+        setContentView(R.layout.welcome_activity);
 
         textWelcome = findViewById(R.id.textWelcome);
 
