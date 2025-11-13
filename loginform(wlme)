@@ -1,4 +1,4 @@
-activit_main.xml 
+activit_main.xml ..............................
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -40,7 +40,7 @@ activit_main.xml
 
 
 
-mainactivity.java
+mainactivity.java.............................................................................
 
 
 package com.example.loginform;
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
 }
 
 
-welcomeactivity.java
+welcomeactivity.java.........................................................................................................
 
 
 package com.example.loginform;
@@ -114,7 +114,7 @@ public class welcomeactivity extends AppCompatActivity {
     }
 }
 
-welcome_activity.xml
+welcome_activity.xml.......................................................
 
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -133,7 +133,7 @@ welcome_activity.xml
 
 </LinearLayout>
 
-androidmanifist.xml
+androidmanifist.xml................................................................
 
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
